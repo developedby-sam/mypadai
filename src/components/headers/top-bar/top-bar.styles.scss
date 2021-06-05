@@ -1,0 +1,89 @@
+.top-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 60px;
+	background-color: #2b2e34;
+	color: #fff;
+
+	svg {
+		color: #fff;
+		display: inline-block;
+		margin-right: 4px;
+	}
+
+	&-left {
+		display: flex;
+		align-self: stretch;
+
+		.latest-news {
+			height: 100%;
+			padding: 0.2rem 1rem;
+			background-color: #185f62;
+			margin-right: 0.5rem;
+		}
+
+		a:hover {
+			color: lighten(#185f62, 30%);
+		}
+	}
+
+	&-right {
+		min-width: 50%;
+		display: flex;
+		align-self: stretch;
+		align-items: center;
+		justify-content: space-between;
+
+		.search {
+			position: relative;
+			&-box {
+				padding: 0.3rem 0.8rem;
+				border-radius: 0.2rem;
+				background-color: #25262b;
+				font-family: inherit;
+				font-size: 0.9rem;
+			}
+
+			&-icon {
+				position: absolute;
+				right: 5px;
+				cursor: pointer;
+				height: 100%;
+			}
+		}
+
+		.account {
+			cursor: pointer;
+
+			&:hover,
+			&:hover svg {
+				color: lighten(#185f62, 30%);
+			}
+
+			svg {
+				margin-bottom: 4px;
+			}
+		}
+
+		.club-house {
+			align-self: stretch;
+			background-color: #185f62;
+			padding: 0 5rem;
+			cursor: pointer;
+
+			&:hover {
+				background-color: lighten(#185f62, 10%);
+			}
+
+			svg {
+				margin-bottom: 4px;
+			}
+		}
+	}
+}
+
+.top-bar .flex-a-center {
+	display: flex;
+	align-items: center;
+}
