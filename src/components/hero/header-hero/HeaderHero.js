@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeaderHero.scss";
+import FeatherIcon from "feather-icons-react";
 
 class HeaderHero extends React.Component {
 	constructor() {
@@ -54,9 +55,12 @@ class HeaderHero extends React.Component {
 	render() {
 		return (
 			<div className="header-hero">
-				<button className=" btn btn-previous" onClick={this.previousSlide}>
-					Previous
-				</button>
+				<FeatherIcon
+					className="previous"
+					size="36"
+					icon="arrow-left-circle"
+					onClick={this.previousSlide}
+				/>
 				<div className="slider">
 					<div className="slide">
 						<div
@@ -75,7 +79,7 @@ class HeaderHero extends React.Component {
 								backgroundImage: `url(${this.state.imageUrls[1]})`,
 							}}
 						>
-							<p>Explore !</p>
+							<p>Discover !</p>
 						</div>
 					</div>
 					<div className="slide">
@@ -95,7 +99,7 @@ class HeaderHero extends React.Component {
 								backgroundImage: `url(${this.state.imageUrls[3]})`,
 							}}
 						>
-							<p>Succeed !</p>
+							<p>Explore !</p>
 						</div>
 					</div>
 					<div className="slide">
@@ -105,13 +109,16 @@ class HeaderHero extends React.Component {
 								backgroundImage: `url(${this.state.imageUrls[4]})`,
 							}}
 						>
-							<p>Dance !</p>
+							<p>Dhading Naach!!</p>
 						</div>
 					</div>
 				</div>
-				<button className="btn btn-next" onClick={this.nextSlide}>
-					Next
-				</button>
+				<FeatherIcon
+					className="next"
+					size="36"
+					icon="arrow-right-circle"
+					onClick={this.nextSlide}
+				/>
 			</div>
 		);
 	}

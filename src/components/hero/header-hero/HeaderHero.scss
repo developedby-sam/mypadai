@@ -47,33 +47,22 @@
 	}
 }
 
-.btn {
+.next {
+	top: 50%;
+	right: 5%;
+	margin-left: 2rem;
+}
+
+.previous {
+	top: 50%;
+	left: 5%;
+	margin-right: 2rem;
+}
+
+.next,
+.previous {
 	position: absolute;
 	z-index: 10;
-	padding: 0.5rem 1rem;
+	cursor: pointer;
 	color: #fff;
-	border-radius: 2px;
-	border: 2px solid lighten(#185f62, 10%);
-	transition: all 300ms ease;
-	outline: none;
-
-	&:focus {
-		outline: none;
-	}
-
-	&:hover {
-		background-color: lighten(#185f62, 10%);
-	}
-
-	&-next {
-		top: 50%;
-		right: 5%;
-		margin-left: 2rem;
-	}
-
-	&-previous {
-		top: 50%;
-		left: 5%;
-		margin-right: 2rem;
-	}
 }

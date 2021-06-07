@@ -25,6 +25,12 @@ export default function TopBar() {
 					<FeatherIcon size="18" icon="user" />
 					Account
 				</Link>
+				<Link to="/confession" className="confession flex-a-center">
+					Confession
+				</Link>
+				<Link to="/chill-mode" className="chill-mode flex-a-center">
+					<FeatherIcon size="24" icon="toggle-left" />
+				</Link>
 				<Link to="/my-space" className="club-house flex-a-center">
 					<FeatherIcon size="18" icon="home" />
 					ClubHouse

@@ -19,17 +19,17 @@
 		.latest-news {
 			height: 100%;
 			padding: 0.2rem 1rem;
-			background-color: #185f62;
+			background-color: #047857;
 			margin-right: 0.5rem;
 		}
 
 		a:hover {
-			color: lighten(#185f62, 30%);
+			color: lighten(#047857, 30%);
 		}
 	}
 
 	&-right {
-		min-width: 50%;
+		min-width: 55%;
 		display: flex;
 		align-self: stretch;
 		align-items: center;
@@ -58,7 +58,7 @@
 
 			&:hover,
 			&:hover svg {
-				color: lighten(#185f62, 30%);
+				color: lighten(#047857, 30%);
 			}
 
 			svg {
@@ -68,12 +68,12 @@
 
 		.club-house {
 			align-self: stretch;
-			background-color: #185f62;
-			padding: 0 5rem;
+			background-color: #047857;
+			padding: 0 3rem;
 			cursor: pointer;
 
 			&:hover {
-				background-color: lighten(#185f62, 10%);
+				background-color: lighten(#047857, 10%);
 			}
 
 			svg {

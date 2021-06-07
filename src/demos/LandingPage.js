@@ -3,21 +3,13 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import Features from "components/features/ThreeColSimple.js";
-import MainFeature from "components/features/TwoColWithButton.js";
-import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
 import TabGrid from "components/cards/TabCardGrid.js";
 import Blog from "components/blogs/PopularAndRecentBlogPosts.js";
-import FAQ from "components/faqs/SingleCol.js";
-import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
-import DownloadApp from "components/cta/DownloadApp.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
-
-import chefIconImageSrc from "images/chef-icon.svg";
-import celebrationIconImageSrc from "images/celebration-icon.svg";
-import shopIconImageSrc from "images/shop-icon.svg";
-
-// *** //
+import FromTheBlog from "components/blogs/FromTheBlogs.js";
+import FAQ from "components/faqs/SimpleWithSideImage.js";
+import SubscribeNewsLetterForm from "components/forms/SimpleSubscribeNewsletter.js";
+import ContactUsForm from "components/forms/SimpleContactUs.js";
+import Footer from "components/footers/SimpleFiveColumn.js";
 import HeaderHero from "../components/hero/header-hero/HeaderHero.js";
 import "./LandingPage.scss";
 
@@ -34,12 +26,15 @@ export default () => {
       <TabGrid
         heading={
           <p className="discover-colleges-heading">
-            Discover your dream College.
+            Discover your dream college.
           </p>
         }
       />
       <Blog />
+      <FromTheBlog />
       <FAQ />
+      <ContactUsForm />
+      <SubscribeNewsLetterForm />
       <Footer />
     </AnimationRevealPage>
   );
