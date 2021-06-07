@@ -8,7 +8,8 @@ import Blog from "components/blogs/PopularAndRecentBlogPosts.js";
 import FromTheBlog from "components/blogs/FromTheBlogs.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import SubscribeNewsLetterForm from "components/forms/SimpleSubscribeNewsletter.js";
-import ContactUsForm from "components/forms/SimpleContactUs.js";
+// import ContactUsForm from "components/forms/SimpleContactUs.js";
+import StudentGuides from "components/student-guides/StudentGuides.js";
 import Footer from "components/footers/SimpleFiveColumn.js";
 import HeaderHero from "../components/hero/header-hero/HeaderHero.js";
 import "./LandingPage.scss";
@@ -22,7 +23,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <HeaderHero />
-      {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
+      <StudentGuides />
       <TabGrid
         heading={
           <p className="discover-colleges-heading">
@@ -33,7 +34,6 @@ export default () => {
       <Blog />
       <FromTheBlog />
       <FAQ />
-      <ContactUsForm />
       <SubscribeNewsLetterForm />
       <Footer />
     </AnimationRevealPage>
