@@ -8,11 +8,9 @@ import Blog from "components/blogs/PopularAndRecentBlogPosts.js";
 import FromTheBlog from "components/blogs/FromTheBlogs.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import SubscribeNewsLetterForm from "components/forms/SimpleSubscribeNewsletter.js";
-// import ContactUsForm from "components/forms/SimpleContactUs.js";
 import StudentGuides from "components/student-guides/StudentGuides.js";
 import Footer from "components/footers/SimpleFiveColumn.js";
 import HeaderHero from "../components/hero/header-hero/HeaderHero.js";
-import "./LandingPage.scss";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;

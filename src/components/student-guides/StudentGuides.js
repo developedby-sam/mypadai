@@ -3,7 +3,9 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro";
 
-import { Subheading } from "components/misc/Headings.js";
+import { SectionHeading } from "components/misc/Headings.js";
+
+const Header = tw(SectionHeading)`pb-16`;
 
 const StudentGuidesContainer = styled.div`
 	background-color: #f3f4f6;
@@ -66,9 +68,7 @@ const StudentGuideButton = styled.button`
 export default function StudentGuides() {
 	return (
 		<StudentGuidesContainer>
-			<Subheading className="sub-heading">
-				Full guide for graduated students
-			</Subheading>
+			<Header>Full guide for graduated students</Header>
 			<StudentGuidesContent>
 				<StudentGuideCard>
 					<StudentGuideText>Completed School ?</StudentGuideText>

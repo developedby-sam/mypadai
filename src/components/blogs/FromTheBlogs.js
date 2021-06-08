@@ -33,7 +33,7 @@ const FromTheBlogCard = styled.div`
 	transition: all 300ms ease;
 
 	&:hover {
-		box-shadow: 6px 6px 6px rgba(#6b7280, 0.6);
+		box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
 	}
 `;
 

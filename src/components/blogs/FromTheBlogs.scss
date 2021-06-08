@@ -4,6 +4,17 @@
 }
 
 .sub-heading {
+	position: relative;
 	margin-bottom: 3rem;
 	font-size: 2rem;
+
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: -8px;
+		left: 0;
+		background-color: #047857;
+		width: 5rem;
+		height: 6px;
+	}
 }

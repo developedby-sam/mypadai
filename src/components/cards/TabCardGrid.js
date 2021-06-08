@@ -10,8 +10,8 @@ import { ReactComponent as StarIcon } from "images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
 
-const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
-const Header = tw(SectionHeading)``;
+const HeaderRow = tw.div`flex justify-between items-center flex-col `;
+const Header = tw(SectionHeading)`pb-16`;
 const TabsControl = tw.div`flex flex-wrap bg-gray-200 px-2 py-2 rounded leading-none mt-12 xl:mt-0`;
 
 const TabControl = styled.div`

@@ -2,13 +2,13 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
-import EventLandingPage from "demos/EventLandingPage.js";
-import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
-import AgencyLandingPage from "demos/AgencyLandingPage.js";
-import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
-import LandingPage from "demos/LandingPage.js";
-import ServiceLandingPage from "demos/ServiceLandingPage.js";
-import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
+// import EventLandingPage from "demos/EventLandingPage.js";
+// import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
+// import AgencyLandingPage from "demos/AgencyLandingPage.js";
+// import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
+// import LandingPage from "pages/LandingPage.js";
+// import ServiceLandingPage from "demos/ServiceLandingPage.js";
+// import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 import EventLandingPageImageSrc from "images/demo/EventLandingPage.jpeg";
 import HotelTravelLandingPageImageSrc from "images/demo/HotelTravelLandingPage.jpeg";
@@ -99,43 +99,43 @@ import FiveColumnDarkFooter from "components/footers/FiveColumnDark.js";
 import MiniCenteredFooter from "components/footers/MiniCenteredFooter.js";
 
 export const components = {
-  landingPages: {
-    RestaurantLandingPage: {
-      component: LandingPage,
-      imageSrc: RestaurantLandingPageImageSrc,
-      url: "/components/landingPages/LandingPage",
-    },
-    HotelTravelLandingPage: {
-      component: HotelTravelLandingPage,
-      imageSrc: HotelTravelLandingPageImageSrc,
-      url: "/components/landingPages/HotelTravelLandingPage",
-    },
-    SaaSProductLandingPage: {
-      component: SaaSProductLandingPage,
-      imageSrc: SaaSProductLandingPageImageSrc,
-      url: "/components/landingPages/SaaSProductLandingPage",
-    },
-    ServiceLandingPage: {
-      component: ServiceLandingPage,
-      imageSrc: ServiceLandingPageImageSrc,
-      url: "/components/landingPages/ServiceLandingPage",
-    },
-    EventLandingPage: {
-      component: EventLandingPage,
-      imageSrc: EventLandingPageImageSrc,
-      url: "/components/landingPages/EventLandingPage",
-    },
-    AgencyLandingPage: {
-      component: AgencyLandingPage,
-      imageSrc: AgencyLandingPageImageSrc,
-      url: "/components/landingPages/AgencyLandingPage",
-    },
-    HostingCloudLandingPage: {
-      component: HostingCloudLandingPage,
-      imageSrc: HostingCloudLandingPageImageSrc,
-      url: "/components/landingPages/HostingCloudLandingPage",
-    },
-  },
+  // landingPages: {
+  //   RestaurantLandingPage: {
+  //     component: LandingPage,
+  //     imageSrc: RestaurantLandingPageImageSrc,
+  //     url: "/components/landingPages/LandingPage",
+  //   },
+  //   HotelTravelLandingPage: {
+  //     component: HotelTravelLandingPage,
+  //     imageSrc: HotelTravelLandingPageImageSrc,
+  //     url: "/components/landingPages/HotelTravelLandingPage",
+  //   },
+  //   SaaSProductLandingPage: {
+  //     component: SaaSProductLandingPage,
+  //     imageSrc: SaaSProductLandingPageImageSrc,
+  //     url: "/components/landingPages/SaaSProductLandingPage",
+  //   },
+  //   ServiceLandingPage: {
+  //     component: ServiceLandingPage,
+  //     imageSrc: ServiceLandingPageImageSrc,
+  //     url: "/components/landingPages/ServiceLandingPage",
+  //   },
+  //   EventLandingPage: {
+  //     component: EventLandingPage,
+  //     imageSrc: EventLandingPageImageSrc,
+  //     url: "/components/landingPages/EventLandingPage",
+  //   },
+  //   AgencyLandingPage: {
+  //     component: AgencyLandingPage,
+  //     imageSrc: AgencyLandingPageImageSrc,
+  //     url: "/components/landingPages/AgencyLandingPage",
+  //   },
+  //   HostingCloudLandingPage: {
+  //     component: HostingCloudLandingPage,
+  //     imageSrc: HostingCloudLandingPageImageSrc,
+  //     url: "/components/landingPages/HostingCloudLandingPage",
+  //   },
+  // },
 
   innerPages: {
     LoginPage: {

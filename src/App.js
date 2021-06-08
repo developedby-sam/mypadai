@@ -104,8 +104,9 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import ComponentRenderer from "ComponentRenderer.js";
 import Navigation from "./components/navigation/Navigation.js";
-import LandingPage from "./demos/LandingPage.js";
-import ThankYouPage from "ThankYouPage.js";
+import LandingPage from "./pages/LandingPage.js";
+import SignupPage from "pages/Signup.js";
+import LoginPage from "pages/Login.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -122,8 +123,10 @@ export default function App() {
           component={ComponentRenderer}
         />
         <Route path="/components/:type/:name" component={ComponentRenderer} />
-        <Route exact path="/thank-you" component={ThankYouPage} />
         <Route exact path="/" component={LandingPage} />
+        <Route exact path="/my-account" component={SignupPage} />
+        <Route exact path="/signup" component={SignupPage} />
+        <Route exact path="/login" component={LoginPage} />
       </Switch>
     </Router>
   );
