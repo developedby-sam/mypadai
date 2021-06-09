@@ -107,6 +107,7 @@ import Navigation from "./components/navigation/Navigation.js";
 import LandingPage from "./pages/LandingPage.js";
 import SignupPage from "pages/Signup.js";
 import LoginPage from "pages/Login.js";
+import BlogsPage from "pages/blog-posts/BlogPosts.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -126,7 +127,7 @@ export default function App() {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/my-account" component={SignupPage} />
         <Route exact path="/signup" component={SignupPage} />
-        <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/blogs" component={BlogsPage} />
       </Switch>
     </Router>
   );
